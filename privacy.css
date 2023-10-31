@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: auto;
+    background-image: url(Background\ Media\ Sociale.jpg);
+    font-size: 20px;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 275px;
+    position: relative;
+    height: auto;
+    margin-left: 439px;
+}
+
+.header-text{
+    text-align: center;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 40px;
+    color: #ad9152;
+    margin: 50px auto;
+}
+
+.header-text p{
+    color: #c0c0c0;
+    font-size: 20px;
+    margin: 50px auto;
+}
+
+.header-text h1 span{
+    color: #ad9152;
+}
+
+
+/* ---------contact-------- */
+
+.copyright{
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background: #014c2d;
+    font-weight: 300;
+    font-size: medium;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ad9152;
+}
+
+.copyright a{
+    color: #c0c0c0;
+}
+
+
+
+
+
+/* Styles for larger screens /*
+/*  */
+
+@media screen and (min-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        color: #fff;
+    }
+    
+    #header{
+        width: 100%;
+        height: auto;
+        background-image: url(Background\ Media\ Sociale.jpg);
+        font-size: 20px;
+    }
+    
+    .container{
+        padding: 10px 10%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: 275px;
+        position: relative;
+        height: auto;
+        margin-left: 439px;
+    }
+    
+    .header-text{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .header-text h1{
+        font-size: 40px;
+        color: #ad9152;
+        margin: 50px auto;
+    }
+    
+    .header-text p{
+        color: #c0c0c0;
+        font-size: 20px;
+        margin: 50px auto;
+    }
+    
+    .header-text h1 span{
+        color: #ad9152;
+    }
+    
+    
+    /* ---------coontact-------- */
+    
+    .copyright{
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        background: #014c2d;
+        font-weight: 300;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .copyright i{
+        color: #ad9152;
+    }
+    
+    .copyright a{
+        color: #c0c0c0;
+    }
+
+}
+
+/* Styles for Medium screens /*
+/*  */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        color: #fff;
+    }
+    
+    #header{
+        width: 100%;
+        height: auto;
+        background-image: url(Background\ Media\ Sociale.jpg);
+        font-size: 16px;
+    }
+    
+    .container{
+        padding: 8px 8%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: auto;
+        width: auto;
+        position: relative;
+        height: auto;
+        margin: auto;
+    }
+    
+    .header-text{
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .header-text h1{
+        font-size: 36px;
+        color: #ad9152;
+        margin: 40px auto;
+    }
+    
+    .header-text p{
+        color: #c0c0c0;
+        font-size: 20px;
+        margin: 40px auto;
+    }
+    
+    .header-text h1 span{
+        color: #ad9152;
+    }
+    
+    
+    /* ---------coontact-------- */
+    
+    .copyright{
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        background: #014c2d;
+        font-weight: 300;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .copyright i{
+        color: #ad9152;
+    }
+    
+    .copyright a{
+        color: #c0c0c0;
+    }
+    
+}
+
+/* Styles for Smaller screens /*
+/*  */
+
+@media screen and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        color: #fff;
+    }
+    
+    #header{
+        width: 100%;
+        height: auto;
+        background-image: url(Background\ Media\ Sociale.jpg);
+        font-size: 12px;
+    }
+    
+    .container{
+        padding: 6px 6%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: auto;
+        width: auto;
+        position: relative;
+        height: auto;
+        margin: auto;
+    }
+    
+    .header-text{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .header-text h1{
+        font-size: 32px;
+        color: #ad9152;
+        margin: 30px auto;
+    }
+    
+    .header-text p{
+        color: #c0c0c0;
+        font-size: 20px;
+        margin: 30px auto;
+    }
+    
+    .header-text h1 span{
+        color: #ad9152;
+    }
+    
+    
+    /* ---------coontact-------- */
+    
+    .copyright{
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        background: #014c2d;
+        font-weight: 300;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .copyright i{
+        color: #ad9152;
+    }
+    
+    .copyright a{
+        color: #c0c0c0;
+    }
+    
+}

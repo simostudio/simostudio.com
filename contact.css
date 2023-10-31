@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #fff;
+}
+
+#header{
+    width: auto;
+    height: auto;
+    background-image: url(Background\ Media\ Sociale.jpg);
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 275px;
+    position: relative;
+    height: auto;
+    margin-left: 439px;
+}
+
+.header-text{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header-text h1{
+    font-size: 40px;
+    color: #ad9152;
+   
+}
+
+.header-text h2{
+    font-size: 15px;
+    color: #ad9152;
+}
+
+.header-text p{
+    color: #c0c0c0;
+    font-size: 20px;
+    
+}
+
+.header-text h1 span{
+    color: #ad9152;
+}
+
+
+/* ---------contact-------- */
+
+.copyright{
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background: #014c2d;
+    font-weight: 300;
+    font-size: medium;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ad9152;
+}
+
+.copyright a{
+    color: #c0c0c0;
+}
+
+
+
+
+/* Styles for larger screens /*
+/*  */
+
+@media screen and (min-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        color: #fff;
+    }
+    
+    #header{
+        width: auto;
+        height: auto;
+        background-image: url(Background\ Media\ Sociale.jpg);
+    }
+    
+    .container{
+        padding: 10px 10%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: 275px;
+        position: relative;
+        height: auto;
+        margin-left: 439px;
+    }
+    
+    .header-text{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .header-text h1{
+        font-size: 40px;
+        color: #ad9152;
+       
+    }
+    
+    .header-text h2{
+        font-size: 15px;
+        color: #ad9152;
+    }
+    
+    .header-text p{
+        color: #c0c0c0;
+        font-size: 20px;
+        
+    }
+    
+    .header-text h1 span{
+        color: #ad9152;
+    }
+    
+    
+    /* ---------contact-------- */
+    
+    .copyright{
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        background: #014c2d;
+        font-weight: 300;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .copyright i{
+        color: #ad9152;
+    }
+    
+    .copyright a{
+        color: #c0c0c0;
+    }
+
+}
+
+/* Styles for Medium screens /*
+/*  */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        color: #fff;
+    }
+    
+    #header{
+        width: auto;
+        height: auto;
+        background-image: url(Background\ Media\ Sociale.jpg);
+    }
+    
+    .container{
+        padding: 8px 8%;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .logo{
+        width: auto;
+        width: auto;
+        position: relative;
+        height: auto;
+        margin: auto;
+    }
+    
+    .header-text{
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .header-text h1{
+        font-size: 36px;
+        color: #ad9152;
+       
+    }
+    
+    .header-text h2{
+        font-size: 11px;
+        color: #ad9152;
+    }
+    
+    .header-text p{
+        color: #c0c0c0;
+        font-size: 16px;
+        
+    }
+    
+    .header-text h1 span{
+        color: #ad9152;
+    }
+    
+    
+
+    /* ---------contact-------- */
+    
+    .copyright{
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+        background: #014c2d;
+        font-weight: 300;
+        font-size: small;
+        margin-top: 20px;
+    }
+    .copyright i{
+        color: #ad9152;
+    }
+    
+    .copyright a{
+        color: #c0c0c0;
+    }
+}
