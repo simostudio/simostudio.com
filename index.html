@@ -21,8 +21,12 @@
 
 <body>
 <div id="header">
+    <div class="snow_wrap">
+        <div class="snow"></div>
+        <div id="snow-container"></div>
+    </div>
     <video autoplay muted loop>
-        <source src="Background Video.webm" type="video/webm">
+        <source src="SOCIAL MEDIA.webm" type="video/webm">
         <!-- You can include additional source elements for different video formats -->
         <!-- <source src="path_to_your_video.webm" type="video/webm"> -->
         Video is not supported by your browser.
@@ -30,7 +34,7 @@
     <div class="container">
         <nav>
             <a href="index.html" class="logo">
-                <img src="Untitled-2.png" width="160" height="160" alt="Simo Studio home">
+                <img src="Simo Studio Christmas Logo RB.png" width="160" height="160" alt="Simo Studio home">
             </a>
 
             <div class="navbar">
@@ -43,8 +47,7 @@
                 <li><a href="#header">HOME</a></li>
                 <li><a href="#about">ABOUT US</a></li>
                 <li><a href="#services">OUR SERVICES</a></li>
-                <li><a href="#portfolio">OUR WORK</a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#portfolio">DISCOUNT</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
             </div>
@@ -63,7 +66,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="Simo Studio Logo 1.jpg">
+                <img src="Simo Studio Logo Christmax 2.jpg">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">ABOUT US</h1>
@@ -116,58 +119,43 @@
 <!-- --------portfolio-------- -->
 <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">OUR WORK</h1>
+            <h1 class="sub-title">DISCOUNT</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="Daku Wallpaper.jpg">
+                    <img src="2.2.jpg">
                     <div class="layer">
-                        <h3>Mirlind Daku, Albanian Footballer</h3>
+                        <h3>Free Design Services For You</h3>
                         
                         <a href="#"><i class="fa-solid fa-heart"></i></a> 
                     </div>
                 </div>
                 <div class="work">
-                    <img src="123.jpg">
+                    <img src="2.1.jpg">
                     <div class="layer">
-                        <h3>Nedim Bajrami, Albanian Footballer</h3>
+                        <h3>Up To 30% Off Creating Your Own Professional Logo</h3>
                        
                         <a href="#"><i class="fa-solid fa-heart"></i></a> 
                     </div>
                 </div>
                 <div class="work">
-                    <img src="HotelMoscopole.jpg">
+                    <img src="1.jpg">
                     <div class="layer">
-                        <h3>Hotel Moscopole, Ksamil</h3>
+                        <h3>Up To 30% Off Building Your Dream Website</h3>
                        
                         <a href="#"><i class="fa-solid fa-heart"></i></a> 
                     </div>
                 </div>
                 <div class="work">
-                    <img src="Restorant Gold.jpg">
+                    <img src="5.jpg">
                     <div class="layer">
-                        <h3>Restorant Gold, Gjirokastër</h3>
+                        <h3>Crazy Offer Of Free Business Cards</h3>
                        
                         <a href="#"><i class="fa-solid fa-heart"></i></a> 
                     </div>
                 </div>
-                <div class="work">
-                    <img src="SofraHotel.jpg">
-                    <div class="layer">
-                        <h3>Sofra Hotel, Gjirokastër</h3>
-                      
-                        <a href="#"><i class="fa-solid fa-heart"></i></a> 
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="Endri Barber.jpg">
-                    <div class="layer">
-                        <h3>Skanderbeg, Albanian Feudal Lord</h3>
-                      
-                        <a href="#"><i class="fa-solid fa-heart"></i></a> 
-                    </div>
-                </div>
+
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="#" class="btn">NOT DECIDED YET?</a>
         </div>
 </div>
 
@@ -176,7 +164,7 @@
     <div class="container">
         <div class="row">
             <div class="contact-left">
-                <h1 class="sub-title">CONTACT</h1>
+                <h1 class="sub-title">CONTACT US</h1>
                 <p><i class="fa-solid fa-envelope"></i>simostudio.al@yahoo.com</p>
                 <p><i class="fa-solid fa-phone"></i>0693366056</p> 
                  <div class="social-icons">
@@ -192,20 +180,7 @@
                  </div>
             </div>
 
-            <div class="contact-right"></div>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-            
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-            
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-            
-                <input type="submit" value="Submit">
-            </form>
-            </div>
+          
         </div>
     </div>
 
@@ -286,17 +261,27 @@
             element.textContent = translations[language][textToTranslate];
         });
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const createSnowflake = () => {
+            const snowflake = document.createElement("div");
+            snowflake.className = "snowflake";
+            snowflake.style.left = Math.random() * window.innerWidth + "px";
+            document.body.appendChild(snowflake);
+
+            setTimeout(() => {
+                snowflake.remove();
+            }, 10000); // Remove snowflakes after 10 seconds
+        };
+
+        const createSnowfall = () => {
+            setInterval(createSnowflake, 500); // Create a new snowflake every 500 milliseconds
+        };
+
+        createSnowfall();
+    });
+
 </script>
-
-<footer>
-
-          <div class="copyright">
-            <p>&copy; 2023 Powered by Simo Studio. All rights reserved. <i class="fa-solid fa-palette"></i> | <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Service</a> <a href="contact.html">Contact information</a></p>
-        <br>
-            
-        </div>
-        
-    </footer>
 
 </body>
 </html>
