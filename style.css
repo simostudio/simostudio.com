@@ -20,13 +20,13 @@
      * colors
      */
   
-    --raisin-black: #ad9152;
-    --roman-silver: #262626;
-    --eerie-black: #c0c0c0;
+    --raisin-black: #012e6d;
+    --roman-silver: #000;
+    --eerie-black: #fff;
     --black: hsla(0, 0%, 0%, 1);
-    --white: #014c2d;
-    --white_a10: #c0c0c0;
-    --white_a5: #ad9152;
+    --white: #0951a3;
+    --white_a10: #fff;
+    --white_a5: #012e6d;
   
     /**
      * typography
